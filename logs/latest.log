@@ -1,17 +1,48 @@
-[00:18:58] [Server thread/INFO]: [Server] We SHUTDOWN this server soon. 60 seconds left.
-[00:19:59] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_191]
-	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_191]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:1.8.0_191]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_191]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_191]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_191]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_191]
-	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_191]
-	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_191]
-	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_191]
-	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_191]
-	at so$2.run(SourceFile:110) [server.jar:?]
-[00:19:59] [Server thread/INFO]: [Server] SERVER SHUTTING DOWN. Saving map...
-[00:19:59] [Server thread/INFO]: Saving the game (this may take a moment!)
+[01:50:17] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:50:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:50:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:50:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:50:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:50:17] [main/INFO]: Loaded 0 recipes
+[01:50:17] [main/INFO]: Loaded 0 advancements
+[01:50:17] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[01:50:17] [Server thread/INFO]: Loading properties
+[01:50:17] [Server thread/INFO]: Default game type: SURVIVAL
+[01:50:17] [Server thread/INFO]: Generating keypair
+[01:50:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:50:17] [Server thread/INFO]: Using epoll channel type
+[01:50:17] [Server thread/INFO]: Preparing level "world"
+[01:50:17] [Server thread/INFO]: Reloading ResourceManager: Default
+[01:50:18] [Server thread/INFO]: Loaded 524 recipes
+[01:50:18] [Server thread/INFO]: Loaded 571 advancements
+[01:50:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 4%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 8%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 12%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 16%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 20%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 24%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 28%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 32%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 36%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 40%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 44%
+[01:50:19] [Server thread/INFO]: Preparing spawn area: 48%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 52%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 56%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 60%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 64%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 68%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 72%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 76%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 80%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 84%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 88%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 92%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 96%
+[01:50:20] [Server thread/INFO]: Preparing spawn area: 100%
+[01:50:20] [Server thread/INFO]: Time elapsed: 1836 ms
+[01:50:20] [Server thread/INFO]: Done (2.945s)! For help, type "help"
+[01:53:00] [Server thread/INFO]: [Server] We SHUTDOWN this server soon. 60 seconds left.
+[01:54:11] [Server thread/INFO]: [Server] SERVER SHUTTING DOWN. Saving map...
+[01:54:11] [Server thread/INFO]: Saving the game (this may take a moment!)
